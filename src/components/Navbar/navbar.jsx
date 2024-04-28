@@ -12,10 +12,13 @@ const navbar = () => {
     },[sticky])
   return (
     <nav className={`container1 ${sticky ? 'dark-nav' : 'normal-nav'}`} >
-        <img src={`${sticky ? logo2 : logo}`} alt='' className={` ${sticky ? 'dark-logo' : 'normal-logo'}`} />
+        <img src={`${sticky ? 'https://dummyimage.com/120x70/808080/000000' : 'https://dummyimage.com/100x30/808080/000000'}`} alt='' className={` ${sticky ? 'dark-logo' : 'normal-logo'}`} />
         <ul>
-            {/* <li>Treatments</li>
-            <li>Trainings</li> */}
+            <li>About US</li>
+            <li>Number 1</li>
+            <li>Services</li>
+            <li>Review</li>
+            <li>FAQs</li>
             <li><button className="consultation-button">Book a Free Consultation</button></li>
         </ul>
     </nav>
