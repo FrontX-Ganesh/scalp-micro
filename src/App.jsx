@@ -1,16 +1,18 @@
 import React from 'react'
 import Navbar from './components/Navbar/navbar'
 import Hero from './components/Hero/Hero'
-import Programs from './components/programs/program'
+import Programs from './components/programs/program';
+import Services from './components/Services/Services';
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar/>
       <Hero/>
       <div className="container">
-      <Programs/>
+        <Programs/>
+        <Services/>
       </div>
-      </div>
+    </>
   )
 }
 
